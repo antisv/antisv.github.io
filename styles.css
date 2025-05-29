@@ -1,0 +1,53 @@
+body {
+background-color: #041588;
+color: #f5e3be;
+font-family: "Georgia", "Times New Roman", serif;
+font-size: large;
+margin: 1rem;
+max-width: 100%;
+line-height: 1.6;
+}
+
+
+@media (min-width: 768px) and (max-width: 1440px) {
+    body {
+      margin-left: 5rem;
+      margin-right: 5rem;
+    }
+  }
+  
+
+  @media (min-width: 1441px) {
+    body {
+      margin-left: 40rem;
+      margin-right: 40rem;
+    }
+  }
+ h1, h2, h3 {
+    font-family: "Garamond", "Georgia", serif;
+    color:antiquewhite;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+ }
+p {
+  margin-top: rem;
+
+}
+ hr {
+  border: 0;
+  border-top: 1px solid #f5e3be;
+  margin: 2rem 0;
+ }
+
+a:hover {
+    text-decoration: underline;
+}
+section.projects h3, section.projects p{
+    margin-top: 0.2rem; 
+    margin-bottom: 0.2rem;
+    padding: 0;
+
+}
+section.projects p{
+    font-style: italic;
+}
