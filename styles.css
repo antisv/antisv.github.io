@@ -31,9 +31,16 @@ p {
   border-top: 1px solid #f5e3be;
   margin: 2rem 0;
  }
-
+a {
+  color: #f5e3be;
+  text-decoration: none;
+}
 a:hover {
     text-decoration: underline;
+}
+
+ul, li, p {
+  text-decoration:none;
 }
 section.projects h3, section.projects p{
     margin-top: 0.2rem; 
