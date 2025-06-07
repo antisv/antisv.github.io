@@ -39,8 +39,8 @@ a:hover {
     text-decoration: underline;
 }
 
-ul, li, p {
-  text-decoration:none;
+ul, li, em {
+  text-decoration:none !important;
 }
 section.projects h3, section.projects p{
     margin-top: 0.2rem; 
